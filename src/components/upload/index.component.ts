@@ -1,5 +1,5 @@
 // Copyright @ 2018-2021 xiejiahe. All rights reserved. MIT license.
-// See https://github.com/xjh22222228/nav
+// See https://github.com/yulongsg/nav
 
 import { Component, EventEmitter, Output } from '@angular/core'
 import { $t } from 'src/locale'

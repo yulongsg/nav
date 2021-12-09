@@ -1,5 +1,5 @@
 // Copyright @ 2018-2021 xiejiahe. All rights reserved. MIT license.
-// See https://github.com/xjh22222228/nav
+// See https://github.com/yulongsg/nav
 
 import fs from 'fs'
 import config from '../nav.config.js'
@@ -43,7 +43,7 @@ const authorName = s[s.length - 2]
 const repoName = s[s.length - 1]
 
 const htmlTemplate = `
-  <!-- https://github.com/xjh22222228/nav -->
+  <!-- https://github.com/yulongsg/nav -->
   <title>${title}</title>
   <meta name="description" content="${description}">
   <meta name="keywords" content="${keywords}">
@@ -70,7 +70,7 @@ ${cnzzScript}
 `.trim()
 
 let seoTemplate = `
-<div data-url="https://github.com/xjh22222228/nav" style="z-index:-1;position:fixed;top:-10000vh;left:-10000vh;">
+<div data-url="https://github.com/yulongsg/nav" style="z-index:-1;position:fixed;top:-10000vh;left:-10000vh;">
 `
 
 async function buildSeo() {
